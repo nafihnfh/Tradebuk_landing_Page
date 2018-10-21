@@ -1,4 +1,6 @@
 @import "abstracts/variables";
+@import "abstracts/mixins";
+
 
 
 @import "base/base";
@@ -8,6 +10,7 @@
 @import "pages/home";
 
 @import "components/button";
+@import "components/nav_bar";
 
 
 

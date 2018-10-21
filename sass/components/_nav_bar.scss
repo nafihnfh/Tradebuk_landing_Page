@@ -1,0 +1,70 @@
+.nav {
+    margin-top: 40px;
+    margin-left: 220px;
+    position: relative;
+
+    
+    &__logo {
+        width: 154px;
+        height: 39px;
+        display: inline-block;
+        margin-top: 5px;
+        position: absolute;
+    }
+
+    &__menu {
+        margin-top: 3px;
+        margin-left: 155px;
+        display: inline-block;
+        &__item {
+            margin-left: 18px;
+            display: inline-block;
+        }
+
+        &__link{
+            &:link,
+            &:visited {
+                text-decoration: none;
+                display: inline-block;
+                font-size: 13px;
+                color: $main-title-color;
+                font-family: "Ubuntu";
+            }
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+}
+
+.logo__new {
+    width: auto;
+    height: 30px;
+}
+
+.call {
+    position: relative;
+    margin-top: 40px;
+    margin-left: -40px;
+
+    &_ico {
+        position: absolute;
+    }
+
+    &_text {
+        line-height: 1;
+        margin-top: 2px;
+        position: absolute;
+        margin-left: 40px;
+        color: $color-white;
+        font-size: 12px;
+        
+        &_number {
+            font-size: 18px;
+        }
+    }
+}
+
+  
