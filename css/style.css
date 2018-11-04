@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 18px; }
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #737373;
+  box-sizing: border-box;
+  padding: 15px; }
+
+.pharagraph {
+  font-weight: 400; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-8 {
+  margin-bottom: 8rem !important; }
+
+.u-margin-bottom-2 {
+  margin-bottom: 2rem !important; }
+
+.u-margin-bottom-4 {
+  margin-bottom: 4rem !important; }
+
+.u-margin-top-8 {
+  margin-top: 8rem !important; }
+
+.section_why_tradebuk {
+  padding: 155px 100px 0px 150px;
+  background-image: url(../../img/Vector_Smart_Object.png), url(../../img/squares_bg.png), url(../../img/grey_box_1.png);
+  background-position: right -340px bottom,left top 130px, left bottom;
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-size: 470px,100px,1200px 550px;
+  position: relative; }
+
+.how_it_work {
+  background-color: #1795ff;
+  background-image: url(../../img/Vector_Smart_Object_copy_2.png), url(../../img/Vector_Smart_Object_copy_2.png);
+  background-position: left bottom, right -500px bottom -130px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 270px, 700px; }
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all .2s;
+  position: relative;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+
+.btn:active, .btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.btn-green {
+  background-color: #188CCF;
+  color: #fff; }
+  .btn-green::after {
+    background-color: #188CCF; }
+
+.nav {
+  margin-top: 40px;
+  margin-left: 220px;
+  position: relative; }
+  .nav__logo {
+    width: 154px;
+    height: 39px;
+    display: inline-block;
+    margin-top: 5px;
+    position: absolute; }
+  .nav__menu {
+    margin-top: 3px;
+    margin-left: 155px;
+    display: inline-block; }
+    .nav__menu__item {
+      margin-left: 18px;
+      display: inline-block; }
+    .nav__menu__link:link, .nav__menu__link:visited {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      color: #282828;
+      font-family: "Ubuntu"; }
+    .nav__menu__link:hover {
+      color: #188CCF; }
+
+.logo__new {
+  width: auto;
+  height: 30px; }
+
+.call {
+  position: relative;
+  margin-top: 40px;
+  margin-left: -40px; }
+  .call_ico {
+    position: absolute; }
+  .call_text {
+    line-height: 1;
+    margin-top: 2px;
+    position: absolute;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 12px; }
+    .call_text_number {
+      font-size: 18px; }
+
+.about {
+  text-align: center; }
+  .about_img {
+    height: 390px;
+    width: auto; }
+
+.content {
+  margin-top: -20px;
+  margin-left: -170px; }
+
+.icon-scroll,
+.icon-scroll:before {
+  position: relative;
+  left: 50%; }
+
+.icon-scroll {
+  width: 30px;
+  height: 48px;
+  margin-left: -20px;
+  top: 50%;
+  box-shadow: inset 0 0 0 1px #707070;
+  border-radius: 25px;
+  cursor: pointer; }
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #707070;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  position: absolute; }
+
+@keyframes scroll {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    transform: translateY(46px); } }
+
+.icon-text {
+  position: relative;
+  left: 47.5%; }
+  .icon-text-font {
+    font-size: 10px;
+    color: #707070; }
+
+.header {
+  background-image: url(../../img/top_right_blue.png), url(../../img/top_left_squares.png), linear-gradient(to left bottom, #f5f5f5bd, #ffffff);
+  background-position: right top, left top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 635px 580px,200px 580px,auto 600px;
+  position: relative; }
+
+.text {
+  margin-left: 220px; }
+  .text_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 40px; }
+
+.dashboard {
+  margin-left: -60px;
+  margin-top: -75px;
+  position: relative; }
+  .dashboard_lap {
+    position: absolute; }
+    .dashboard_lap_img {
+      width: 600px;
+      height: 350px; }
+  .dashboard_mob {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 440px; }
+    .dashboard_mob_img {
+      width: 145px;
+      height: 265px; }
+
+.get_excited {
+  margin-top: 175px;
+  line-height: 1;
+  cursor: pointer; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
