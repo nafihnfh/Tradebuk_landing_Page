@@ -1,3 +1,18 @@
 .pharagraph {
     font-weight: 400;
+    text-align: justify;
+    color: $body-font-color;
+}
+
+.content {
+    padding-right: 150px;
+    margin-top: -20px;
+   margin-left: -170px;
+}
+
+.heading-tertiary {
+    font-size: 20px;
+    font-weight: 100;
+    color: aliceblue;
+    font-family: sans-serif;
 }

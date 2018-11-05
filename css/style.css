@@ -15,7 +15,20 @@ body {
   padding: 15px; }
 
 .pharagraph {
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: justify;
+  color: #737373; }
+
+.content {
+  padding-right: 150px;
+  margin-top: -20px;
+  margin-left: -170px; }
+
+.heading-tertiary {
+  font-size: 20px;
+  font-weight: 100;
+  color: aliceblue;
+  font-family: sans-serif; }
 
 .u-center-text {
   text-align: center !important; }
@@ -38,14 +51,25 @@ body {
   background-position: right -340px bottom,left top 130px, left bottom;
   background-repeat: no-repeat,no-repeat,no-repeat;
   background-size: 470px,100px,1200px 550px;
-  position: relative; }
+  position: relative;
+  padding-bottom: 20px; }
 
 .how_it_work {
+  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
   background-color: #1795ff;
   background-image: url(../../img/Vector_Smart_Object_copy_2.png), url(../../img/Vector_Smart_Object_copy_2.png);
   background-position: left bottom, right -500px bottom -130px;
   background-repeat: no-repeat, no-repeat;
   background-size: 270px, 700px; }
+
+.features {
+  padding-top: 100px;
+  background-image: url(../../img/greybox2.png);
+  background-position: right bottom;
+  background-repeat: no-repeat; }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -126,10 +150,6 @@ body {
   .about_img {
     height: 390px;
     width: auto; }
-
-.content {
-  margin-top: -20px;
-  margin-left: -170px; }
 
 .icon-scroll,
 .icon-scroll:before {
@@ -231,3 +251,11 @@ body {
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+.how_it_work {
+  text-align: center; }
+  .how_it_work_text {
+    position: relative;
+    text-align: center;
+    line-height: 150%;
+    color: aliceblue; }
