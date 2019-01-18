@@ -1,4 +1,4 @@
-# gothinkster
+# tradebuk_landing
 
 > A CSS project
 
@@ -8,7 +8,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# For sass compile
 npm run compile:sass
 
 # for Live Server
